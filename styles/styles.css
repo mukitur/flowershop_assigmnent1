@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Lato', sans-serif;
+}
+.main-btn {
+  border-radius: 8px;
+  background: #e55473;
+  color: white;
+  padding: 20px 40px;
+  border: none;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background: rgba(229, 84, 115, 0.1);
+}
+
+.banner-heading {
+  font-size: 50px;
+  font-weight: 800;
+}
+.header-para {
+  width: 600px;
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.banner-img {
+  width: 400px;
+  position: bottom-right;
+}
