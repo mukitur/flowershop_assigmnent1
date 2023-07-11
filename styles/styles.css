@@ -12,6 +12,43 @@ body {
   padding: 20px 40px;
   border: none;
 }
+/* Main Menu */
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border-bottom: 3px solid #e55473;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar li {
+  list-style: none;
+  margin-right: 20px;
+  font-size: 20px;
+}
+.navbar li a {
+  text-decoration: none;
+  color: black;
+}
+
+.navbar a:hover {
+  color: #e55473;
+}
+.navbar a:active {
+  color: #e55473;
+}
+.login {
+  padding: 5px 15px;
+  background-color: #e55473;
+  border: none;
+  border-radius: 5px;
+  color: white;
+}
+
 /* header part */
 .header-container {
   display: flex;
