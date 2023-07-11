@@ -75,3 +75,30 @@ body {
 .hotdeal-img {
   width: 300px;
 }
+/* Instragram part start */
+.instragram-container {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.instra {
+  text-align: center;
+}
+.instra-heading {
+  font-size: 30px;
+  font-weight: 800;
+  margin-bottom: 25px;
+}
+.paragraph {
+  width: 450px;
+  font-size: 18px;
+  font-weight: 400;
+  margin: auto;
+  color: rgba(39, 39, 39, 0.6);
+}
+.instragram-images {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 25px;
+  margin: 50px 100px 50px 100px;
+  overflow: hidden;
+}
