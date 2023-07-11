@@ -102,3 +102,44 @@ body {
   margin: 50px 100px 50px 100px;
   overflow: hidden;
 }
+/* Subscribe part */
+.subscribe {
+  background-image: url('../images/subscribe.png');
+  height: 500px;
+  background-repeat: no-repeat;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.subscribe-heading {
+  font-size: 30px;
+  font-weight: 800;
+  margin-bottom: 10px;
+  padding-top: 180px;
+  text-align: center;
+}
+.subscribe-p {
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 50px;
+  text-align: center;
+  color: rgba(39, 39, 39, 0.6);
+}
+.subscribeform {
+  text-align: center;
+}
+.emailfield {
+  width: 500px;
+  height: 50px;
+  padding-left: 10px;
+  border-radius: 8px;
+  border: none;
+  margin-right: 20px;
+}
+.subscribe-btn {
+  border-radius: 8px;
+  background: #e55473;
+  color: white;
+  padding: 20px 40px;
+  border: none;
+}
+/* footer start */
