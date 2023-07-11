@@ -19,6 +19,7 @@ body {
   align-items: center;
   padding: 20px;
   border-bottom: 3px solid #e55473;
+  background-color: whitesmoke;
 }
 .navbar {
   display: flex;
@@ -48,7 +49,58 @@ body {
   border-radius: 5px;
   color: white;
 }
-
+/* Featured Products */
+.featured-header {
+  text-align: center;
+}
+.f-header {
+  margin-top: 100px;
+  margin-bottom: 25px;
+}
+.f-paragraph {
+  font-size: 18px;
+  font-weight: 400;
+  color: rgba(39, 39, 39, 0.6);
+  margin-bottom: 50px;
+}
+.featured-box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 100px;
+  gap: 25px;
+}
+.box1 {
+  width: 400px;
+  height: 470px;
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(167, 33, 98, 0.15);
+}
+.box2 {
+  width: 400px;
+  height: 470px;
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(5, 151, 160, 0.15);
+}
+.box3 {
+  width: 400px;
+  height: 470px;
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(71, 125, 17, 0.15);
+}
+.ff-image {
+  width: 250px;
+  height: 300px;
+  position: relative;
+}
+.ff-caption {
+  width: 400px;
+  text-align: center;
+  padding-top: 15px;
+  text-decoration: underline;
+  color: #272727;
+  font-weight: 700;
+}
 /* header part */
 .header-container {
   display: flex;
