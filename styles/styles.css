@@ -18,7 +18,7 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 20px;
-  border-bottom: 3px solid #e55473;
+  border-bottom: 1px solid #e55473;
   background-color: whitesmoke;
 }
 .navbar {
@@ -156,13 +156,12 @@ body {
 .off {
   color: #e55473;
 }
-.deals-image {
-  width: 450px;
-  display: flex;
-  justify-content: center;
-}
+
 .hotdeal-img {
   width: 300px;
+}
+.hotdeal-left {
+  text-align: center;
 }
 /* Instragram part start */
 .instragram-container {
